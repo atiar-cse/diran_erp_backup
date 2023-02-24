@@ -1,0 +1,174 @@
+//Styles
+
+.landing-section{
+  position: relative;
+
+}
+
+.inner-landing-section{
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  .animated-bg{
+    background: #f8f9f9;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    img{
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+    }
+  }
+  .top-navbar{
+    position: relative;
+    width: 100%;
+    top: 0;
+    display: block;
+    text-align: right;
+    padding: 2% 10%;
+    background-image: url("../images/top-bg.png");
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 22vh;
+    img{
+      width: 100%;
+    }
+    ul{
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: 0;
+      li{
+        list-style: none;
+        display: inline-block;
+        padding: 0 15px;
+        a{
+          padding: 10px 20px;
+          text-decoration: none;
+          color: #fff;
+          font-size: 18px;
+          &:hover{
+            background: #00a551;
+            border-radius: 20px;
+            transition: 0.5s ease-in;
+          }
+        }
+      }
+    }
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #00a551;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  .login-section{
+    display: block;
+    position: relative;
+    margin: 30px 0 0;
+    .login-block{
+      width: 25vw;
+      float: right;
+      display: block;
+      text-align: right;
+      padding: 30px 30px 15px;
+      height: auto;
+      overflow: hidden;
+      background: #fff;
+      margin: 0 10vw 0 0;
+      box-shadow: 0 5px 15px -5px #ddd;
+      .service-logo{
+        width: 150px;
+        margin: 0 auto;
+        img{
+          width: 100%;
+        }
+      }
+      h5{
+        color: #4c4c4c;
+        font-size: 16px;
+        padding: 15px 0;
+        margin: 0;
+        text-align: left;
+      }
+      form{
+        .form-group{
+          clear: both;
+          overflow: hidden;
+          padding: 15px 0;
+          margin: 0;
+          input{
+            height: 50px;
+            border-radius: 0;
+          }
+          .login-btn{
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            background: #00a551;
+            color: #fff;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            max-width: 200px;
+            margin: 0 auto;
+            border-radius: 30px;
+            box-shadow: 0 5px 15px -5px #9a9696;
+            &:hover{
+              background: #82b7e3;
+              transition: 0.5s ease-in-out;
+            }
+            &:focus{
+              outline: none !important;
+              outline: 0 auto -webkit-focus-ring-color !important;
+            }
+          }
+          .remember{
+            float: left;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            input{
+              height: auto;
+            }
+            span{
+              padding-left: 5px;
+            }
+          }
+          .forgot{
+            float: right;
+            width: 60%;
+            a{
+              text-decoration: none;
+              color: #00a551;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.landing-section .service-list .list-content .service-block:hover h5{
+  color: #fff;
+}
+.landing-section .service-list .list-content .service-block img{
+  width: 120px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.landing-section .service-list .list-content .service-block h5{
+  padding: 5px 15px 0;
+  color: #0b0b0b;
+  font-weight: 600;
+  text-align: center;
+}

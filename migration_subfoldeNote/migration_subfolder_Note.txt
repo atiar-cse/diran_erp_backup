@@ -1,0 +1,15 @@
+
+# Create Table 
+
+php artisan make:migration create_sample_table --path=database/migrations/sub_folder
+
+
+# Sub Folder migration cmd if multiple (subfolder):
+
+ # php artisan migrate --path=database/migrations/sub_folder1
+ # php artisan migrate --path=database/migrations/sub_folder2
+
+Note: if single subfolder:
+
+ # php artisan migrate --path=/database/migrations/*
+ 

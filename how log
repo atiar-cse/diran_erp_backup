@@ -1,0 +1,497 @@
+[33mcommit b160230c024ff198afbc3d2c5387d3f0ff09173f[m[33m ([m[1;36mHEAD -> [m[1;32mtarek/master[m[33m, [m[1;31morigin/tarek/master[m[33m)[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Mon Jan 25 15:33:08 2021 +0600
+
+    purchase related view
+
+[33mcommit df5a5dff4b1faff5be57b6f8bbc59f912ce4b8ba[m
+Author: Tarek Hasan <tarek.hasan01@northsouth.edu>
+Date:   Thu Jan 21 12:40:05 2021 +0600
+
+    ledger report button disable
+
+[33mcommit 394ffc2e3ecec91d6f574b2b59ab878d52cf76ca[m
+Author: Tarek Hasan <tarek.hasan01@northsouth.edu>
+Date:   Wed Jan 20 15:54:51 2021 +0600
+
+    Sales return & Ledger
+
+[33mcommit 8210d86e472cc1dcd3c4f2c2744cb824c779d1b5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Tue Jan 19 20:03:54 2021 +0600
+
+    Lc landed cost
+
+[33mcommit e4b028b9498a54ec4d95aa7b1fa20649f6f43f8f[m
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Sun Jan 10 01:35:19 2021 +0600
+
+    0 qty read only
+
+[33mcommit a0cfd3faddfb7495f5294e49427d842eae144564[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sat Jan 9 14:53:58 2021 +0600
+
+     CI modification
+
+[33mcommit 4496a60ffc399e67796bc84fc16e4d81aa8c4208[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sat Jan 9 12:38:16 2021 +0600
+
+    2 furnish ledger & margin entry
+
+[33mcommit 4012bbfe7eea87c6cfa2e69155cef2532d1e1742[m
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Thu Jan 7 23:24:33 2021 +0600
+
+    readonly
+
+[33mcommit 57ee16211d2bc66a86d1539114481bfb8ad5323b[m
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Wed Jan 6 21:15:18 2021 +0600
+
+    subCode 2 in ledger report
+
+[33mcommit cbd50dbbf253ed62ca8dfff36fe0c82093f7cae5[m
+Merge: 8b06cd95 04c86d7b
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Wed Jan 6 20:18:35 2021 +0600
+
+    Merge remote-tracking branch 'origin/tarek/master'
+
+[33mcommit 04c86d7b7ef8c78cad6e39c16c0289a0eece1110[m
+Author: Tarek Hasan <tarek.hasan01@northsouth.edu>
+Date:   Wed Jan 6 15:26:41 2021 +0600
+
+    payment method in contra entry voucher
+
+[33mcommit 0c8103a3841c1f1e800bebdfebe05f5f03521608[m
+Merge: 5d262067 44130cbf
+Author: Tarek Hasan <tarek.hasan01@northsouth.edu>
+Date:   Mon Jan 4 18:08:01 2021 +0600
+
+    Merge remote-tracking branch 'origin/tarek/master' into tarek/master
+
+[33mcommit 8b06cd95e13a7b8a29ec36b7f936b9e8d7d5eb6a[m
+Merge: 5d262067 44130cbf
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Mon Jan 4 17:49:09 2021 +0600
+
+    Merge remote-tracking branch 'origin/tarek/master'
+
+[33mcommit 5d262067678fda423ae85725e9905ff8a40040cc[m
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Mon Jan 4 17:48:47 2021 +0600
+
+    voucher doupli
+
+[33mcommit 44130cbfacb37f50b4d2840cb07a27cea91d7a21[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sat Jan 2 15:50:51 2021 +0600
+
+    margin entry revert
+
+[33mcommit bbe3e5c2cf822d5df5ca6fe48c81dafd0d55f277[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sat Jan 2 15:36:26 2021 +0600
+
+    Margin ENtry
+
+[33mcommit 6608b6c4186ecfcfe46400732b74535f1893c385[m
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Wed Dec 30 20:11:31 2020 +0600
+
+    button disable at click
+
+[33mcommit 072a2bfe76c3a9eb082030e710e45216edd84435[m
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Wed Dec 30 20:11:05 2020 +0600
+
+    button disable at click
+
+[33mcommit 4b59bca7efdabf8cf6389a97ce2b2b79b8baae75[m
+Author: Md Tarek Hasan <tarek_inspire@yahoo.com>
+Date:   Sun Dec 27 18:08:10 2020 +0600
+
+    Ledger Report Remarks or Narration
+
+[33mcommit 3d9c1b11ac8cd5ae3de4e3ca984e2cfcdfc74318[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sat Dec 26 15:27:12 2020 +0600
+
+    sales panel
+
+[33mcommit 7652b6bea6ef2af744b0563d8f4cd5abce43ac81[m[33m ([m[1;31morigin/atiar/remote[m[33m)[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Mon Oct 12 11:28:54 2020 +0600
+
+    Production > Glaze Section - Raw Materials loaded
+
+[33mcommit 2fe51db911eebdd669d5f4c07dc9c27bcdef0920[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sun Sep 27 16:56:06 2020 +0600
+
+    Unapprove - DB rollback added
+
+[33mcommit 444c4bb6fd66849d5a14100b56b0194d6aa30bc3[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Wed Sep 23 23:39:39 2020 +0600
+
+    LC > fixed Custom Duty - VAT
+
+[33mcommit 6d1a17d313ffa2b2d95f9491def8e249eb259ef2[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Thu Sep 17 11:37:48 2020 +0600
+
+    LC > Margin value removed readonly
+
+[33mcommit 14742d4ae16fad9a6b0bc532bd23ad3a2af48afc[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Tue Sep 15 12:11:52 2020 +0600
+
+    gitignore updated
+
+[33mcommit 4e25918edc2bed546443f42dd5b0067a54010d36[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Tue Sep 15 11:22:38 2020 +0600
+
+    Ledger Report > Narration to Remarks
+
+[33mcommit 8e9d19131e65c69a150c274bd0d09d154a43c62c[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Wed Sep 2 13:26:13 2020 +0600
+
+    Ledger Report - employee filtering
+
+[33mcommit 28f688c1e8d70311e121fa14da4a70c992cb1577[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Tue Aug 25 13:42:33 2020 +0600
+
+    Account > Bank Receipt - 4701 People Credits
+
+[33mcommit d6a8e31897f681009a3aafeeca4c57d67bde3d2e[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Mon Jun 1 17:14:05 2020 +0600
+
+    Production Packing - Inventory packing materials added
+
+[33mcommit 9d4333f901fa408ae8d8f44f9e0837dfc15d87bd[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sun May 31 16:49:06 2020 +0600
+
+    Production Assembling Inventory Materials QTY
+
+[33mcommit fba420ad66267b394af7a1442a4d2419d9fbf7cd[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sat May 30 16:00:49 2020 +0600
+
+    Production Assembling Materials - finished add.vue
+
+[33mcommit 9cabe79a5a45d278a7c6ebf591a5fdb799f24492[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Wed May 27 17:16:31 2020 +0600
+
+    Finished Packing Section
+
+[33mcommit 4918decc1cda37c4e16669f991b29412ccaf4884[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Tue May 12 23:35:33 2020 +0600
+
+    Production Packing > add.vue - next store method
+
+[33mcommit c62eb4d20bef35272a655a285f60a60e7b71fef5[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Tue May 12 15:48:48 2020 +0600
+
+    Finished Assembling to Packing
+
+[33mcommit 8bd98bbd40f253c16dc7b70f21332e6af34dfead[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Mon May 11 23:05:03 2020 +0600
+
+    Working on Production > Assembling - Store, done
+
+[33mcommit e5999ee26d95a0e46c740767004db34a0a3cc415[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Tue May 5 12:51:56 2020 +0600
+
+    Production > Transfer Qty Finishing to Assembling
+
+[33mcommit 213586f765f412e936f697717e276effda1efb8a[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Wed Apr 29 16:23:46 2020 +0600
+
+    Production > Removed Semi Finished Section, Transferred from TestingSection to FinishingSection
+
+[33mcommit 9eaf30cfa7262f5eae2a826f82a97b672cc560cf[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Thu Apr 2 15:20:28 2020 +0600
+
+    Production > Packing - unit price auto calc
+
+[33mcommit 0753ff8bd294a93252856849c81610a6b64de1e3[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Wed Apr 1 16:54:38 2020 +0600
+
+    Production > Assembling - Finished Product Price Auto Calc
+
+[33mcommit 0e5225a1b1366f503f4351f95724cc26a21eeacf[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Tue Mar 31 15:14:02 2020 +0600
+
+    Purchase > Avg Unit Price - Report
+
+[33mcommit 1e67c31738273d05735b9477e70be4a5619b3276[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Thu Mar 26 11:33:48 2020 +0600
+
+    Production > Query optimized
+
+[33mcommit eecb4a87131049207af6ff48b013b0702021805b[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sun Mar 22 13:15:16 2020 +0600
+
+    SQL order sorted
+
+[33mcommit 3771a25016250edcb7a5e2be1e626c9407e810f1[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sun Mar 22 12:42:33 2020 +0600
+
+    Production > Glaze Material Unit_price calculation
+
+[33mcommit 19b4c27716b83eb83e3560a1a904a89ebf6ed210[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sun Mar 22 00:23:45 2020 +0600
+
+    Production > Recycle Chip - Total Amount and unit_price calculation
+
+[33mcommit 733d379966b2e125bb33d600abd8fce40692fb67[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sat Mar 21 21:12:31 2020 +0600
+
+    Production > Masbossdy - Recycle Chip unit_price visibled
+
+[33mcommit d74f26ae01f52071f440dde2eef32aa8500e665e[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sat Mar 21 13:08:46 2020 +0600
+
+    Production > Reject Amount Calculation
+
+[33mcommit b55570dcaea89b16966f6cb0a1d2114792a8c468[m
+Merge: 4650e296 d13ffac7
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sat Mar 21 11:27:44 2020 +0600
+
+    Merge remote-tracking branch 'origin/mostafij/master' into atiar/remote
+
+[33mcommit d13ffac777e4784acc5d2822060a20ea606b9471[m[33m ([m[1;31morigin/mostafij/master[m[33m, [m[1;32mmostafij/master[m[33m)[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Thu Mar 19 18:31:14 2020 +0600
+
+     Glaze Material Weight & price implement
+
+[33mcommit 4650e29651fc59365f69f7f3739cd156062a1736[m[33m ([m[1;31morigin/atiar/master[m[33m)[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Thu Mar 19 17:26:43 2020 +0600
+
+    Working on > Production Reject Amount
+
+[33mcommit ae70413f634bd43076967e86cfce82237cb2b7f3[m
+Merge: 327b5c9b 621986d3
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Thu Mar 19 16:20:56 2020 +0600
+
+    Merge remote-tracking branch 'origin/atiar/master' into mostafij/master
+
+[33mcommit 327b5c9bc3185a93479aa0bfff6ded565d738ee8[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Thu Mar 19 16:20:06 2020 +0600
+
+    Glaze modified
+
+[33mcommit 621986d3fa340715e2d865ac416d41e7bf69d482[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Wed Mar 18 17:46:01 2020 +0600
+
+    Production > reject amount and overhead calculation - Kiln, Testing, Finished, Packing
+
+[33mcommit 2927d7bf97f69b7121fb15552917a9dba5395b7b[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Mon Mar 16 16:27:46 2020 +0600
+
+    Production > Wastage Overhead sum
+
+[33mcommit f052bba5c2614d17604ba43e05a08150270f2cf3[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Mon Mar 16 14:54:36 2020 +0600
+
+    Production > Wastage Overhead Amount - up to glaze section
+
+[33mcommit db578a32685c7eb7c21116059349f9076eea7fa2[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Mon Mar 16 10:57:55 2020 +0600
+
+    Product Packing section few modified overhead price
+
+[33mcommit a9c6f43c1ceb41a2a6529139f84fb5bf23d450f3[m
+Merge: 2aa833d5 d53ae4cc
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Mon Mar 16 09:56:09 2020 +0600
+
+    Merge remote-tracking branch 'origin/atiar/master' into mostafij/master
+
+[33mcommit d53ae4cc1e3f1ed4b955a1d9c2d8b078e149ac70[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Sun Mar 15 18:40:33 2020 +0600
+
+    Production > Wastage Overhead Amount - up to Dryer Section
+
+[33mcommit 2aa833d53a9e071334ebc51e854ebcbdc81c371e[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sun Mar 15 18:34:57 2020 +0600
+
+    Overhead price modified in Packing/Assembiling section
+
+[33mcommit 8776f7af99420e485fdf8169521b6b97728acd1c[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sun Mar 15 15:31:27 2020 +0600
+
+    Overhead Price Modified & implement in Testion Section
+
+[33mcommit 29b4bf5a61a00482e4eae79b9fbf3be6c914b6f0[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sun Mar 15 15:15:41 2020 +0600
+
+    Overhead price modified in Glaze & Kiln Section
+
+[33mcommit 9f6f76a6604e884d92689e811f4c591b53e42a63[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sun Mar 15 13:00:11 2020 +0600
+
+    Loading implement in Dryer section
+
+[33mcommit d71b6ac11b593c7e7fef8e7da011c3dfb40d13ff[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sun Mar 15 12:48:45 2020 +0600
+
+    Correction Edit Shapping Section & Overhead price implement in Edit Correction Shapping Section
+
+[33mcommit 3438b0eb09bef8df89c2f91b2afa431efa4e91db[m
+Merge: 627e5146 5d555c8e
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sun Mar 15 11:16:15 2020 +0600
+
+    Overhead price implement in Production Edit Correction Section
+
+[33mcommit 627e5146c357e7fb56cf7d0d1a7a1a91d53acc53[m
+Merge: be49b0d9 1b7e76dd
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Sun Mar 15 09:39:23 2020 +0600
+
+    Merge remote-tracking branch 'origin/atiar/master' into mostafij/master
+
+[33mcommit 1b7e76ddb9e81e41e9514d87d1a440c0ae9ec50c[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Thu Mar 12 18:23:54 2020 +0600
+
+    Production > Overhead unit price integrated up to Dryer Section
+
+[33mcommit be49b0d921c8d1f11b994f29edf818e63cf04a6f[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Thu Mar 12 15:28:24 2020 +0600
+
+    Over Head Price implement in Production Formin & shaping Make Currection section
+
+[33mcommit 5d555c8ecd5c18c28ef258746a393f3312f0d856[m[33m ([m[1;31morigin/limo[m[33m)[m
+Author: sam <samiul.limo@gmail.com>
+Date:   Thu Mar 12 12:20:25 2020 +0600
+
+    added loading on all ajax
+
+[33mcommit be9ae4c580dea1b7d12e6c912c975582f4633733[m
+Merge: a510bee4 f7977fc8
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Thu Mar 12 11:43:50 2020 +0600
+
+    Merge remote-tracking branch 'origin/atiar/master' into mostafij/master
+
+[33mcommit c283da69e77a89438c5034af04ef068a5280c9ce[m
+Merge: f7977fc8 a510bee4
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Thu Mar 12 10:09:59 2020 +0600
+
+    Merge remote-tracking branch 'origin/mostafij/master' into atiar/master
+
+[33mcommit a510bee4657e0468da062b9130ab8cf5d2388c5c[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Wed Mar 11 16:14:51 2020 +0600
+
+    Lc others charge view page modified
+
+[33mcommit 23e9a47abec1cc2eadf1b28d6e9e521ef3c90416[m
+Merge: b84144b7 f7977fc8
+Author: sam <samiul.limo@gmail.com>
+Date:   Wed Mar 11 16:08:23 2020 +0600
+
+    Merge branch 'atiar/master' of https://gitlab.com/IVLWEB/diranerp into limo
+
+[33mcommit b84144b71d18da3b351f6f7feaa0faa53b6ae766[m
+Author: sam <samiul.limo@gmail.com>
+Date:   Wed Mar 11 16:08:09 2020 +0600
+
+    init
+
+[33mcommit f7977fc8235ba165c303701d63ae12744b779130[m
+Merge: 9c9eee8a eefa3066
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Wed Mar 11 14:35:01 2020 +0600
+
+    Fixed conflict with mostafij
+
+[33mcommit 9c9eee8a5eec331f63c8204e58951888861e3b01[m
+Author: Atiar Rahman <atiar.cse@gmail.com>
+Date:   Wed Mar 11 14:29:49 2020 +0600
+
+    SQl
+
+[33mcommit eefa3066f7da45980e88e4397aeca4406bc9f2b5[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Wed Mar 11 13:05:14 2020 +0600
+
+    Cash Receipt Voucher Amount text width increment
+
+[33mcommit d2fa154e91037296074dd529567b07751fd8b876[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Tue Mar 10 18:26:37 2020 +0600
+
+    View Others Charge Entry panel some modified
+
+[33mcommit a47021b7a69480f403320e433d28a59f614ca24e[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Tue Mar 10 15:23:50 2020 +0600
+
+    Production Packing Overhead price again modified
+
+[33mcommit fed75e5d9300e61201bde12a025ed39d5ee45c6c[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Tue Mar 10 15:08:06 2020 +0600
+
+    Production Packing Overhead price modified
+
+[33mcommit dba9f359b7b503c2cc4871cd494560420ef36cba[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Tue Mar 10 14:24:12 2020 +0600
+
+    Overhead implement in Production Packing
+
+[33mcommit ae0f4ef784e5cf4dc2d5d96ad06b69260b11b8cd[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Tue Mar 10 12:50:21 2020 +0600
+
+    Overhead implement in Production Assembiling Section
+
+[33mcommit eb21098f6a8b71f82d25e27322475487a96794ef[m
+Author: Md.Mostafijur Rahman <mostafijcoder15@gmail.com>
+Date:   Tue Mar 10 10:58:27 2020 +0600
+
+    Over Head Price implement in Production Finish Stock

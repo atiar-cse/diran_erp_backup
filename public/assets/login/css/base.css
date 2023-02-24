@@ -1,0 +1,231 @@
+/*@import "on-off";
+@import "hamburger";*/
+.landing-section {
+  position: relative;
+}
+
+.inner-landing-section {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.inner-landing-section .animated-bg {
+  background: #f8f9f9;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+}
+.inner-landing-section .animated-bg img {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.inner-landing-section .top-navbar {
+  position: relative;
+  width: 100%;
+  top: 0;
+  display: block;
+  text-align: right;
+  padding: 2% 10%;
+  background-image: url("../images/top-bg.png");
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 22vh;
+}
+.inner-landing-section .top-navbar img {
+  width: 100%;
+}
+.inner-landing-section .top-navbar ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+}
+.inner-landing-section .top-navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+.inner-landing-section .top-navbar ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.inner-landing-section .top-navbar ul li a:hover {
+  background: #00a551;
+  border-radius: 20px;
+  transition: 0.5s ease-in;
+}
+.inner-landing-section .nav-pills .nav-link.active, .inner-landing-section .nav-pills .show > .nav-link {
+  background-color: #00a551;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.inner-landing-section .login-section {
+  display: block;
+  position: relative;
+  margin: 30px 0 0;
+}
+.inner-landing-section .login-section .login-block {
+  width: 25vw;
+  float: right;
+  display: block;
+  text-align: right;
+  padding: 30px 30px 15px;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  margin: 0 10vw 0 0;
+  box-shadow: 0 5px 15px -5px #ddd;
+}
+.inner-landing-section .login-section .login-block .service-logo {
+  width: 150px;
+  margin: 0 auto;
+}
+.inner-landing-section .login-section .login-block .service-logo img {
+  width: 100%;
+}
+.inner-landing-section .login-section .login-block h5 {
+  color: #4c4c4c;
+  font-size: 16px;
+  padding: 15px 0;
+  margin: 0;
+  text-align: left;
+}
+.inner-landing-section .login-section .login-block form .form-group {
+  clear: both;
+  overflow: hidden;
+  padding: 15px 0;
+  margin: 0;
+}
+.inner-landing-section .login-section .login-block form .form-group input {
+  height: 50px;
+  border-radius: 0;
+}
+.inner-landing-section .login-section .login-block form .form-group .login-btn {
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  background: #00a551;
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px -5px #9a9696;
+}
+.inner-landing-section .login-section .login-block form .form-group .login-btn:hover {
+  background: #82b7e3;
+  transition: 0.5s ease-in-out;
+}
+.inner-landing-section .login-section .login-block form .form-group .login-btn:focus {
+  outline: none !important;
+  outline: 0 auto -webkit-focus-ring-color !important;
+}
+.inner-landing-section .login-section .login-block form .form-group .remember {
+  float: left;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.inner-landing-section .login-section .login-block form .form-group .remember input {
+  height: auto;
+}
+.inner-landing-section .login-section .login-block form .form-group .remember span {
+  padding-left: 5px;
+}
+.inner-landing-section .login-section .login-block form .form-group .forgot {
+  float: right;
+  width: 60%;
+}
+.inner-landing-section .login-section .login-block form .form-group .forgot a {
+  text-decoration: none;
+  color: #00a551;
+}
+
+.landing-section .service-list .list-content .service-block:hover h5 {
+  color: #fff;
+}
+
+.landing-section .service-list .list-content .service-block img {
+  width: 120px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.landing-section .service-list .list-content .service-block h5 {
+  padding: 5px 15px 0;
+  color: #0b0b0b;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .inner-landing-section .login-section {
+    margin: 0;
+  }
+  .inner-landing-section .login-section .login-block {
+    width: 30vw;
+    margin: 0 3vw 0 0;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .inner-landing-section .login-section {
+    margin: 0;
+  }
+  .inner-landing-section .login-section .login-block {
+    width: 35vw;
+    margin: 0 3vw 0 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .inner-landing-section .login-section {
+    margin: 0;
+  }
+  .inner-landing-section .login-section .login-block {
+    width: 50vw;
+    margin: 0 5vw 0 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .inner-landing-section .login-section {
+    margin: 0;
+  }
+  .inner-landing-section .login-section .login-block {
+    width: 50vw;
+    margin: 0 5vw 0 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .inner-landing-section .animated-bg {
+    padding-top: 10vh;
+  }
+
+  .inner-landing-section .login-section {
+    margin: 110px auto 0;
+    overflow: hidden;
+    padding: 15px;
+  }
+  .inner-landing-section .login-section .login-block {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .inner-landing-section .top-navbar ul li {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=base.css.map */

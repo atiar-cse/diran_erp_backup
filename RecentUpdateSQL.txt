@@ -1,0 +1,122 @@
+===============Pending Insulator ==== Keep New SQL in bottom.
+
+ALTER TABLE `production_testing_details` CHANGE `trans_semi_finished_qty` `trans_to_finishing` DECIMAL(13,2) NOT NULL;
+
+
+ALTER TABLE `production_current_stocks` DROP `semi_finished_stk_current_qty`, DROP `semi_finished_stk_receive_qty`;
+
+UPDATE `acl_menus` SET `status` = '0', `updated_at` = NULL WHERE `acl_menus`.`id` = 280;
+
+UPDATE `acl_menus` SET `status` = '0', `updated_at` = NULL WHERE `acl_menus`.`id` = 358;
+
+
+
+
+
+DROP TABLE ` production_assembling_details `
+
+CREATE TABLE `production_assembling_details` (
+	`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`assembling_section_id` INT(10) UNSIGNED NOT NULL,
+	`product_id` INT(11) NOT NULL,
+	`remarks` VARCHAR(191) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`current_qty` DECIMAL(13,2) NOT NULL,
+	`receive_qty` DECIMAL(13,2) NOT NULL,
+	`trans_to_packing_qty` DECIMAL(13,2) NOT NULL,
+	`unit_price` DECIMAL(18,2) NOT NULL,
+	`overhead_price` DECIMAL(13,2) NULL DEFAULT '0.00',
+	`total_price` DECIMAL(18,2) NOT NULL,
+	`remain_qty` DECIMAL(13,2) NOT NULL,
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8mb4_unicode_ci'
+ENGINE=InnoDB
+;
+
+
+ALTER TABLE `production_packing_details` ADD `receive_qty` DECIMAL(13,2) NULL DEFAULT NULL AFTER `current_qty`, ADD `remain_qty` DECIMAL(13,2) NULL DEFAULT NULL AFTER `receive_qty`;
+
+
+ALTER TABLE `production_assemblings` ADD `inv_total_qty` DECIMAL(13,2) NULL AFTER `total_rm_price`, ADD `inv_total_amount` DECIMAL(13,2) NULL AFTER `inv_total_qty`;
+
+
+CREATE TABLE `production_inventory_materials` (
+	`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`assembling_section_id` INT(10) UNSIGNED NULL DEFAULT NULL,
+	`packing_section_id` INT(10) UNSIGNED NULL DEFAULT NULL,
+	`product_id` INT(10) UNSIGNED NOT NULL,
+	`current_stock_qty` DECIMAL(18,2) NOT NULL,
+	`qty` DECIMAL(18,2) NOT NULL,
+	`unit_price` DECIMAL(18,2) NULL DEFAULT NULL,
+	`total_price` DECIMAL(18,2) NULL DEFAULT NULL,
+	`remarks` VARCHAR(191) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	PRIMARY KEY (`id`) USING BTREE,
+	INDEX `fk_pro_req_rmd_product_id` (`product_id`) USING BTREE
+)
+COLLATE='utf8mb4_unicode_ci'
+ENGINE=InnoDB
+ROW_FORMAT=DYNAMIC
+;
+
+ALTER TABLE `production_packings` ADD `inv_total_qty` DECIMAL(13,2) NULL AFTER `total_rm_price`, ADD `inv_total_amount` DECIMAL(13,2) NULL AFTER `inv_total_qty`;
+
+
+
+DELETE FROM `acl_menu_permissions` WHERE `acl_menu_permissions`.`id` = 6071;
+DELETE FROM `acl_menu_permissions` WHERE `acl_menu_permissions`.`id` = 6281;
+DELETE FROM `acl_menu_permissions` WHERE `acl_menu_permissions`.`id` = 6912;
+DELETE FROM `acl_menu_permissions` WHERE `acl_menu_permissions`.`id` = 7540;
+
+DELETE FROM `acl_menu_permissions` WHERE `acl_menu_permissions`.`id` = 6098;
+DELETE FROM `acl_menu_permissions` WHERE `acl_menu_permissions`.`id` = 6314;
+DELETE FROM `acl_menu_permissions` WHERE `acl_menu_permissions`.`id` = 6945;
+
+
+
+=====Pending for Enterprise=====
+
+ALTER TABLE `lc_others_charge_entries`
+	ADD COLUMN `lc_other_charge_id` INT(10) UNSIGNED NOT NULL AFTER `lc_opening_info_id`;
+
+
+
+
+CREATE TABLE `lc_others_charges` (
+	`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`lc_others_charge_no` VARCHAR(191) NOT NULL COLLATE 'utf8mb4_unicode_ci',
+	`lc_opening_info_id` INT(10) UNSIGNED NOT NULL,
+	`lc_commercial_invoice_id` INT(10) UNSIGNED NOT NULL,
+	`others_charge_date` DATE NULL DEFAULT NULL,
+	`total_amount` DECIMAL(13,2) NOT NULL,
+	`narration` TEXT NULL COLLATE 'utf8mb4_unicode_ci',
+	`account_status` INT(11) NOT NULL DEFAULT '0',
+	`status` TINYINT(4) NOT NULL DEFAULT '1',
+	`approve_status` TINYINT(4) NOT NULL DEFAULT '0',
+	`created_by` INT(11) NULL DEFAULT NULL,
+	`updated_by` INT(11) NULL DEFAULT NULL,
+	`approve_by` INT(4) NULL DEFAULT NULL,
+	`approve_at` DATETIME NULL DEFAULT NULL,
+	`acc_approve_by` INT(11) NULL DEFAULT NULL,
+	`acc_approve_at` DATETIME NULL DEFAULT NULL,
+	`acc_updated_by` INT(11) NULL DEFAULT NULL,
+	`deleted_at` TIMESTAMP NULL DEFAULT NULL,
+	`created_at` TIMESTAMP NULL DEFAULT NULL,
+	`updated_at` TIMESTAMP NULL DEFAULT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='utf8mb4_unicode_ci'
+ENGINE=InnoDB
+ROW_FORMAT=COMPACT
+;
+
+
+
+
+
+=====Pending for Pole=====
+
+
+
+
+
+**********unsigned check korbe Mr. Irfan******************

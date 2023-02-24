@@ -1,0 +1,44 @@
+## mpdf=>
+
+     composer require mpdf/mpdf
+
+
+## excel=>
+     
+     1.composer require maatwebsite/excel
+     2.php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider"
+     3.excel.php => add
+     >>>'local_path'  => public_path() . '/tmp',
+
+     4.
+     >>>
+     App\Http\Middleware
+     >>>
+     PreventBakButton.php
+     >>>
+      public function handle($request, Closure $next)
+          {
+              /*$response = $next($request);
+              return $response->header('Cache-Control','nocache,no-store,max-age=0,must-revalidate')
+                  ->header('Pragma','no-cache')
+                  ->header('Expires','Sat,01 Jan 1990 00:00:00 GMT');*/
+
+              $response = $next($request);
+
+              $response->headers->set('Access-Control-Allow-Origin' , '*');
+              $response->headers->set('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, PUT, DELETE');
+              $response->headers->set('Access-Control-Allow-Headers', 'Content-Type, Accept, Authorization, X-Requested-With, Application');
+
+              return $response;
+          }
+
+
+
+
+
+Note : if this command not work following  instruction :
+
+          1. delete vendor file
+          2. delete composer.lock
+          3. composer install
+          4. then mpf & excel cmd

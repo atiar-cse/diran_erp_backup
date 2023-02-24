@@ -1,0 +1,109 @@
+//Responsive device
+
+//Import Sass files
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1800px){
+
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px){
+  .inner-landing-section {
+    .login-section {
+      margin: 0;
+      .login-block {
+        width: 30vw;
+        margin: 0 3vw 0 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+  .inner-landing-section {
+    .login-section {
+      margin: 0;
+      .login-block {
+        width: 35vw;
+        margin: 0 3vw 0 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px){
+  .inner-landing-section {
+    .login-section {
+      margin: 0;
+      .login-block {
+        width: 50vw;
+        margin: 0 5vw 0 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .inner-landing-section {
+    .login-section {
+      margin: 0;
+      .login-block {
+        width: 50vw;
+        margin: 0 5vw 0 0;
+      }
+    }
+  }
+}
+
+//Common styles for small devices
+@media only screen and (max-width: 767px){
+  .inner-landing-section {
+    .animated-bg {
+      padding-top: 10vh;
+    }
+  }
+  .inner-landing-section {
+    .login-section {
+      margin: 110px auto 0;
+      overflow: hidden;
+      padding: 15px;
+      .login-block {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .inner-landing-section {
+    .top-navbar {
+      ul {
+        li {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+
+//Common styles for small devices end
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 479px){
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px){
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px){
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+
+}

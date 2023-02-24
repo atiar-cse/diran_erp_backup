@@ -1,0 +1,107 @@
+.print_links{
+    display: none;
+}
+.m-footer{
+    display: none;
+}
+
+.m-subheader{
+    display: none !important;
+}
+.m-portlet__head{
+    display: none !important;
+}
+
+.m-portlet__head-tools{
+    display: none !important;
+}
+.header-section-hide-print{
+    display: none !important;
+}
+
+@page { margin: 0; }
+
+/*
+.signature-section{
+    display: inline-block !important;
+}
+*/
+.signature-section .signature-right{
+    margin-left: 190px !important;
+}
+
+.signature-section .signature-center{
+    margin-left: 100px !important;
+}
+
+#ledger_form_no_print{
+        display: none !important;
+    }
+#print_btn_no_print{
+        display: none !important;
+    }
+
+.hide_print{
+    display: none !important;
+}
+.signature-section{
+    display: inline !important;
+}
+
+.m-invoice__head{
+    display: inline !important;
+  /*  margin-bottom: 80px;*/
+}
+
+.voucher_top_space{
+    margin-top:100px;
+}
+
+.chat_acct_print{
+    display: inline !important;
+
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body--centered .m-invoice__items .m-invoice__item .m-invoice__subtitle {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-top: 1px solid grey;
+    width: 200px;
+    text-align: center;
+}
+
+
+/*print front_size*/
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items .m-invoice__item .m-invoice__subtitle{
+    font-size: 16px;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th{
+    font-size: 16px;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr:first-child td{
+    font-size: 16px;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td:not(:first-child){
+    font-size: 16px;
+}
+
+.description-section p{
+    font-size: 16px;
+}
+.inv-fullheight .inv-signature-row .signature-item span{
+    width: 160px;
+    font-size: 20px;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td{
+    font-size: 16px;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr:first-child td{
+    font-size: 16px;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body--centered .m-invoice__items{
+    font-size: 18px;
+}
+
